@@ -49,10 +49,32 @@ Cada alumno puede elegir si seguir el curso en R o en Python. Incluso si se atre
 
 ## Preparación del entorno de trabajo
 
+Tanto si vas a trabajar en R como en Python, necesitarás instalar 3 cosas:
+
+* El lenguaje de programación
+* Un IDE
+* Un gestor de dependencias. R lo trae por defecto, pero en Python existen diferentes opciones y lo tienes que instalar aparte
+* Dependencias (librerías, paquetes): esto lo harás de forma incremental según las necesites
+
 ### R
 
-TBA
+Instala la última versión de R y de RStudio. Están disponibles aquí:
+
+* [R](https://cran.r-project.org/)
+* [RStudio](https://www.rstudio.com/products/rstudio/download/)
 
 ### Python
 
-TBA
+Instala la última versión de Python 3 y el IDE que prefieras. Para este último, hay muchas opciones: Spyder, Rodeo, un editor de texto (como Atom) + una extensión para ejecutar código, ... Lo importante es que sea cómodo para ir ejecutando poco a poco el código que vas escribiendo. Mi recomendación es Rodeo (que está inspirado en RStudio), pero si tienes otra preferencia, adelante.
+
+Además, necesitarás un gestor de dependencias (al estilo maven, npm, ...) para instalar las liberías que necesites. Los más conocidos son pip y conda. Mi recomendación es pip, pero son similares.
+
+* [Python 3](https://www.python.org/downloads/)
+* [Pip](https://pip.pypa.io/en/stable/installing/)
+* [Rodeo](http://rodeo.yhat.com/docs/)
+
+
+## Herramientas
+
+* Nuestro [grupo de slack](https://bluetab-data-science.slack.com), para preguntar dudas o comentar cosas relacionadas con ciencia de datos
+* [El repo de GitHub del curso](https://github.com/koldLight/bluetab-data-science-2017), donde publicaré los ejercicios
