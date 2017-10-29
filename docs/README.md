@@ -49,7 +49,7 @@ Cada alumno puede elegir si seguir el curso en R o en Python. Incluso si se atre
 
 ## Preparación del entorno de trabajo
 
-Tanto si vas a trabajar en R como en Python, necesitarás instalar 3 cosas:
+Tanto si vas a trabajar en R como en Python, necesitarás 4 cosas:
 
 * El lenguaje de programación
 * Un IDE
