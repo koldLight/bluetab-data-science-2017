@@ -1,4 +1,4 @@
-# Bluetab - Introducción a la ciencia de datos 2017/18
+# Bluetab - Curso ciencia de datos 2017/18
 
 ## Introducción
 
@@ -22,7 +22,7 @@ Cada alumno puede elegir si seguir el curso en R o en Python. Incluso si se atre
 | 2017-12-25      | Navidad                                                                                                                                                                                                                                                                     ||
 | 2018-01-01      | Año nuevo                                                                                                                                                                                                                                                                   ||
 | 2018-01-08      | [Cleaning Data in R](https://www.datacamp.com/courses/cleaning-data-in-r)                                                     | [Cleaning Data in Python](https://www.datacamp.com/courses/cleaning-data-in-python)                                                          |
-| 2018-01-15      | [Importing & Cleaning Data in R: Case Studies](https://www.datacamp.com/courses/importing-cleaning-data-in-r-case-studies) |  | [Introduction to Databases in Python](https://www.datacamp.com/courses/introduction-to-relational-databases-in-python)                       |
+| 2018-01-15      | [Importing & Cleaning Data in R: Case Studies](https://www.datacamp.com/courses/importing-cleaning-data-in-r-case-studies)    | [Introduction to Databases in Python](https://www.datacamp.com/courses/introduction-to-relational-databases-in-python)                       |
 | 2018-01-22      | [Reporting with R Markdown](https://www.datacamp.com/courses/reporting-with-r-markdown)                                       | [pandas Foundations](https://www.datacamp.com/courses/pandas-foundations)                                                                   ||
 | 2018-01-29      | Ejercicio                                                                                                                                                                                                                                                                   ||
 | 2018-02-05      | [Data Manipulation in R with dplyr](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial)                      | [Manipulating DataFrames with pandas](https://www.datacamp.com/courses/manipulating-dataframes-with-pandas)                                  |
