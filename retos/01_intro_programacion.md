@@ -44,6 +44,8 @@ Vamos a publicar un primer cambio en nuestro repositorio: un fichero `.gitignore
 
 Si has instalado SourceTree, puedes seguir [este pequeño tutorial](http://www.bogotobogo.com/cplusplus/Git/Git_GitHub_Source_Tree_1_Commit_Push.php) para publicar tu primer cambio.
 
+Este fichero sirve para ignorar los ficheros descritos en su interior. Es decir, para evitar subir ciertas cosas al repositorio. Pueden ser ficheros temporal como en este caso, contraseñas, configuración dependiente del entorno, etc. Para saber más sobre cómo ignorar ficheros puedes [leer esto](https://help.github.com/articles/ignoring-files/).
+
 ## 3. Múltiplos de 3 y 5
 
 Empezamos con la programación. Resuelve el siguiente ejercicio con código:
