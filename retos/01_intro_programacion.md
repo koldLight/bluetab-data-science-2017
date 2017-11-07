@@ -28,6 +28,7 @@ Escoge con la que te sientas más cómodo. Si es la primera vez que lo usas, pue
 
 * [SourceTree](https://www.sourcetreeapp.com) (recomendado): funciona en Mac y Windows
 * [GitKraken](https://www.gitkraken.com): funciona en Mac, Windows y Linux
+* [GitEye](https://www.collab.net/downloads/giteye): es portable, es decir, que no hace falta instalarlo. Buena alternativa si no tenéis permisos de administrador en la máquina que uséis.
 
 ## 2. Publica un .gitignore en tu repositorio
 
