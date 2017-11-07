@@ -44,13 +44,14 @@ Vamos a publicar un primer cambio en nuestro repositorio: un fichero `.gitignore
 
 Si has instalado SourceTree, puedes seguir [este pequeño tutorial](http://www.bogotobogo.com/cplusplus/Git/Git_GitHub_Source_Tree_1_Commit_Push.php) para publicar tu primer cambio.
 
-Este fichero sirve para ignorar los ficheros descritos en su interior. Es decir, para evitar subir ciertas cosas al repositorio. Pueden ser ficheros temporal como en este caso, contraseñas, configuración dependiente del entorno, etc. Para saber más sobre cómo ignorar ficheros puedes [leer esto](https://help.github.com/articles/ignoring-files/).
+Este fichero sirve para ignorar los ficheros descritos en su interior. Es decir, para evitar subir ciertas cosas al repositorio. Pueden ser ficheros temporales como en este caso, contraseñas, configuración dependiente del entorno, etc. Para saber más sobre cómo ignorar ficheros puedes [leer esto](https://help.github.com/articles/ignoring-files/).
 
 ## 3. Múltiplos de 3 y 5
 
 Empezamos con la programación. Resuelve el siguiente ejercicio con código:
 
 > Si listamos todos los números naturales menores que 10 que son múltiplos de 3 o de 5, nos sale 3, 5, 6 y 9. La suma de ellos da 23.
+
 > Encuentra la suma de todos los múltiplos de 3 o de 5 menores que 1000.
 
 Para publicar el resultado, primero crea una carpeta llamada `01_intro_programacion`. Dentro de ella, mete tu solución en un fichero ejecutable, es decir `03_multiplos.R` o `03_multiplos.py`, dependiendo del lenguaje que escojas.
@@ -58,9 +59,9 @@ Para publicar el resultado, primero crea una carpeta llamada `01_intro_programac
 ## 4. Suma de monedas
 
 > En Inglaterra, existen monedas de penique y de libra (que son 100 peniques).
-> Las monedas disponibles son: 1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) y £2 (200p)
-> Podemos sumar £2 de la siguiente forma: 1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
+> Las monedas disponibles son: 1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) y £2 (200p).
+> Podemos sumar £2 de la siguiente forma: 1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p.
+
 > ¿De cuántas formas distintas podemos sumar £2, usando cualquier cantidad de monedas?
 
 Publica el resultado en la carpeta `01_intro_programacion`, en un fichero ejecutable `04_monedas.R` o `04_monedas.py`
-
