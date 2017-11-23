@@ -30,7 +30,7 @@ Existen varias APIs para consultar datos metereólogicos, pero casi todas tienen
 * Limitaciones en número de llamadas
 * No disponen de datos antiguos
 
-Así que vamos a _scrapearlos_. Hecha un vistazo a la siguiente página: http://www.ogimet.com/cgi-bin/gsynres?ord=REV&decoded=yes&ndays=31&ano=2008&mes=1&day=31&hora=24&ind=08221 .
+Así que vamos a _scrapearlos_. Echa un vistazo a la siguiente página: http://www.ogimet.com/cgi-bin/gsynres?ord=REV&decoded=yes&ndays=31&ano=2008&mes=1&day=31&hora=24&ind=08221 .
 
 Fíjate en los parámetros: están cuidadosamente elegidos, para obtener los datos horarios de todo enero de 2018. Aquí no hay documentación, ya que no está hecha para consulta de datos por script. Utiliza sentido común y juega cambiando los parámetros a mano hasta que sepas para qué funciona cada uno.
 
@@ -46,7 +46,7 @@ Puede que te encuentres con pequeños problemas que de primeras no sabes resolve
 * Juntar la salida en un único dataframe
 * Eliminar filas repetidas de un dataframe
 
-Consulta en internet como resolverlo en concreto para el lenguaje que usas. Si te atascas, pregunta por el grupo de slack.
+Consulta en internet cómo resolverlo en concreto para el lenguaje que usas. Si te atascas, pregunta por el grupo de slack.
 
 Sube la solución a tu repositorio de GitHub, en una carpeta `03_web_scraping` y llama al fichero `scrape_meteo.[R/py]`
 
@@ -55,7 +55,7 @@ Sube la solución a tu repositorio de GitHub, en una carpeta `03_web_scraping` y
 A continuación detallo una serie de librerías y consejos que te pueden servir para resolver el problema, pero no deja de ser una recomendación. Si prefieres usar otras librerías, ¡adelante!
 
 * R: el paquete `XML` trae una librería muy útil para este caso, `readHTMLTable`.
-* Python: el propio `Pandas` tiene una función para leer tablas HTML, `read_html`. Documentación [aquí](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_html.html). Puede que necesites alguna librería extra para importar la tabla. Por ejemplo, si usas el parámetro `flavor`
+* Python: el propio `Pandas` tiene una función para leer tablas HTML, `read_html`. Documentación [aquí](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_html.html). Puede que necesites alguna librería extra para importar la tabla.
 
 Esta página tiene una complicación extra: la web en sí está maquetada con tablas (una práctica muy habitual hace años). En R no he tenido problemas para leerlo. En cambio, en Python, si hago directamente `read_html` sobre la página, se queda pillado (al menos varios minutos, yo he tenido que matarlo). Un truco es, en lugar de decirle que intente parsear todas las tablas del html, es pasarle únicamente la tabla de interés. Lo puedes hacer:
 
