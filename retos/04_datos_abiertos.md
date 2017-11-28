@@ -14,7 +14,7 @@ En esta ocasión, el ejecicio es abierto. Coge un conjunto de datos que sea de t
 
 Y haz un pequeño análisis sobre él, intercalando tus comentarios y código en un documento ejecutable.
 
-Sube el ejercicio a tu repositorio como `04_datos_abiertos/analisis.[Rmd/ipynb]`
+Sube el ejercicio a tu repositorio como `04_datos_abiertos/analisis.[Rmd/ipynb]`. Incluye también los datos de entrada que hayas usado en una carpeta `dat` dentro de la misma carpeta que el Rmd / notebook.
 
 Por ejemplo, podrías bajarte los datos de contaminación por horas y sacar conclusiones de los datos:
 
