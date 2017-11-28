@@ -2,9 +2,9 @@
 
 Normalmente tenemos que presentar resultados de nuestro análisis a clientes o jefes añadiendo comentarios y de manera reproducible.
 
-Una forma muy cómoda de hacerlo es utilizando documentos ejecutables, que se pueden exportar a multitud de formatos (html, pdf, ...). En R tenemos Rmarkdown y en Python los notebooks de ipython.
+Una forma muy cómoda de hacerlo es utilizando documentos ejecutables, que se pueden exportar a multitud de formatos (html, pdf, ...). En R tenemos Rmarkdown y en Python los notebooks de jupyter.
 
-## Rmarkdown / iphyton
+## Rmarkdown / jupyter
 
 Créate un documento y trastea con él. Investiga cómo poner títulos, texto, bloques de código, enlaces, texto en negrita o cursiva, ...
 
