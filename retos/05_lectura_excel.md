@@ -46,7 +46,7 @@ Además, a veces hay diferencias en las columnas. La lógica puede ser:
 * Si hay 6 columnas, tengo que leer la primera, segunda y cuarta
 * Si no, leo la primera, tercera y quinta
 
-Y también hay que quitar las columnas totales que a veces hay entre medias. Esto se puede hacer eliminando todas aquellas filas que no tengan asignada cualquiera de las 3 filas leídas.
+Y también hay que quitar las filas totales que a veces hay entre medias (en algunos de los documentos, después de listar la población de todos los municipios de una provincia, se muestra la población de la provincia como suma de la de sus municipios). Esto se puede hacer eliminando todas aquellas filas que no tengan asignada cualquiera de las 3 filas leídas.
 
 ## 4. Lectura del archivo comprimido
 
