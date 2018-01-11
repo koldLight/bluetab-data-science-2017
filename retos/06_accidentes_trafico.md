@@ -39,9 +39,9 @@ Podríamos pensar que, efectivamente, han aumentado los fallecidos en los últim
 
 Cambiemos la métrica del análisis. En lugar de mirar el número total de fallecidos, vamos a mostrar la evolución del número de fallecidos por cada millón de vehículos.
 
-Para ello, podemos descargarnos los datos de [aquí](http://www.dgt.es/es/seguridad-vial/estadisticas-e-indicadores/parque-vehiculos/series-historicas/). Descárgate el excel de 2016 y colócalo en la carpeta `dat/`.
+Hay datos sobre la cantidad de vehículos [aquí](http://www.dgt.es/es/seguridad-vial/estadisticas-e-indicadores/parque-vehiculos/series-historicas/). Descárgate el excel de 2016 y colócalo en la carpeta `dat/`.
 
-Lee del excel la hoja `parque_tipos`. Quédate con las columnas del año y el total. Una vez hecho, crúza los datos por año con los datos de fallecidos, de forma que tengas en el mismo dataframe el año, el número de fallecidos y el número de vehículos.
+Lee del excel la hoja `parque_tipos`. Quédate con las columnas del año y el total. Una vez hecho, cruza los datos por año con los datos de fallecidos, de forma que tengas en el mismo dataframe el año, el número de fallecidos y el número de vehículos.
 
 Ahora, calcula en una nueva columna el nuevo indicador: el ratio de fallecidos por cada millón de vehículos.
 
