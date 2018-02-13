@@ -2,7 +2,7 @@
 
 En ocasiones, queremos presentar el resultado de nuestro análisis en formato de slides.
 
-Existen alternativas más cómodas, reproducibles y versionables que utilizar el software más habitual, como PowerPoint, Google Slides o Prezi.
+Existen alternativas más cómodas, reproducibles y versionables que utilizar el software más habitual (PowerPoint, Google Slides, Prezi...). Por ejemplo:
 
 * En Python, podemos usar los propios notebooks de Jupyter para general presentaciones de slides en html. Si se quiere customizar más, se puede usar [RISE](https://github.com/damianavila/RISE).
 * En R, podemos crear presentaciones de Reveal.js a partir de Rmarkdown. Documentación [aquí](https://rmarkdown.rstudio.com/revealjs_presentation_format.html).
