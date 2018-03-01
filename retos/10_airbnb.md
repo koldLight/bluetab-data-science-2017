@@ -1,6 +1,6 @@
 # Reto inside AirBnB
 
-El objetivo de este reto es proporcionar un análisis gráfico que identifique el uso que se hace de la plataforma Airbnb en Madrid. Es decir, que vayas explorando los datos y saques conclusiones apoyadas con gráficos en un notebook (Rmarkdown o notebook de jupyter).
+El objetivo de este reto es proporcionar un análisis gráfico que identifique el uso que se hace de la plataforma Airbnb en Madrid o Barcelona. Es decir, que vayas explorando los datos y saques conclusiones apoyadas con gráficos en un notebook (Rmarkdown o notebook de jupyter).
 
 Airbnb sostiene que su propósito es promover la economía de compartir. Es decir, que yo alquile mi casa mientras estoy de vacaciones en otro apartamento también ofrecido por una persona como yo, en el lugar que quiera visitar. Por el contrario, los negocios hoteleros se quejan de que realmente gran cantidad de los anfitriones en Airbnb hacen negocio con la plataforma, creando economía sumergida e incumpliendo medidas de seguridad, como la de exigir la identidad de los clientes.
 
