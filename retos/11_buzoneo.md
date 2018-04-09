@@ -2,7 +2,7 @@
 
 Estás trabajando en una empresa que organiza campañas de márketing. Varios clientes te piden que les organices una serie de campañas de buzoneo en Madrid, para las cuales tienen un público objetivo definido.
 
-Tu trabajo las próximas TBA semanas será optimizar el esfuerzo dedicado. Es decir, intentar llegar al mayor número de personas de su objetivo dejando el menor número de folletos.
+Tu trabajo las próximas 2 semanas será optimizar el esfuerzo dedicado. Es decir, intentar llegar al mayor número de personas de su objetivo dejando el menor número de folletos.
 
 El buzoneo consiste en enviar a un repartidor de folletos a una serie de portales. El repartidor dejará un folleto en cada buzón, igual al número de viviendas existentes en tal portal.
 
@@ -18,7 +18,7 @@ La empresa __Joquers__ ha creado unas nuevas gafas de sol modernas y low-cost. S
 
 ### Móviles adaptados
 
-Una empresa española de fabricación de teléfonos móviles acaba de lanzar el __Yayofón__. Se trata de un dispositivo que trae instalados tres botones de acceso rápido: uno al teléfono, otro al whatsapp y otro a la galería de fotos. La pantalla está adaptada para letras grandes y ofrecen un servicio gratuito de migración de agenda de contactos, historial de conversaciones y fotos del antiguo dispositivo al nuevo. Tenían claro que su público objetivo son los mayores de 65. Además, mediante un estudio de mercado, han descubierto que entre las mujeres tienen un grado de aceptación varios puntos por encima que entre los hombres.
+Una empresa española de fabricación de teléfonos móviles acaba de lanzar el __Yayofón__. Se trata de un dispositivo que trae instalados tres botones de acceso rápido: uno al teléfono, otro al whatsapp y otro a la galería de fotos. La pantalla está adaptada para letras grandes y ofrecen un servicio gratuito de migración de agenda de contactos, historial de conversaciones y fotos del antiguo dispositivo al nuevo. Tenían claro que su público objetivo son los mayores de 65. Además, mediante un estudio de mercado, han descubierto que entre las mujeres tienen un grado de aceptación varios puntos por encima que entre los hombres. Por ello, han decidido que su público objetivo son mujeres mayores de 65.
 
 ### Transporte para ejecutivos
 
@@ -36,7 +36,7 @@ Tu proyecto deberá acabar teniendo esta estructura:
   |-- dat/
     |-- raw/: carpeta que contiene los datos en crudo
     |-- sscc_madrid_data.csv: resultado de tratar raw/
-  analisis.[Rmd|ipython]
+  |-- analisis.[Rmd|ipython]
 ``` 
 
 ### Creación del dataset
@@ -53,8 +53,9 @@ Para cada campaña y sección, calcula lo siguiente:
 - Total personas público objetivo
 - Porcentaje de personas de la sección que son público objetivo
 - Total folletos necesarios (que corresponde al total de viviendas de la sección)
+- Tasa de objetivo por cada 1000 folletos. Es decir, es 1000 * num_personas_objetivo / total_folletos
 
-Muestra el top 10 de las secciones más interesantes en las que buzonear (al menos en formato tabla, y de forma opcional, pintadas en un mapa). Una sección es más interesante cuanta más personas del público objetivo vivan ahí.
+Muestra el top 10 de las secciones más interesantes en las que buzonear (al menos en formato tabla, y de forma opcional, pintadas en un mapa). Una sección es más interesante cuanto mayor sea su tasa objetivo: más público alcanzado entregando menos folletos.
 
 Ten en cuenta que en algunas campañas pueden tener indicadores mixtos que igual no puedes obtener en conjunto (p.e. tienes una columna `número personas con estudios universitarios` y otra `número de personas entre 35 y 50 años`). Para sacar el indicador combinado, es decir, que cumplan ambos requisitos, puedes suponer que son independientes y multiplica uno de ellos por el porcentaje de la población que cumplen el segundo. Siguiendo este ejemplo, si para una determinada sección, tenemos que:
 - Total personas: 1000
