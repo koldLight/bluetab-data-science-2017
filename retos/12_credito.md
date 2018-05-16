@@ -33,7 +33,7 @@ Todos los modelos deberán hacer lo siguiente. Es recomendable que saques el có
 4. Preprocesa los datos y separa en entrenamiento (70%) y validación (30%): variable en cada modelo, ya que vamos a probar diferentes ideas
 5. Entrena el modelo con el conjunto de entrenamiento
 6. Pinta la importancia de variables.
-7. Mide el AUC en el conjunto de validación. Déjalo apuntado con un comentario al final del script
+7. Mide el AUC en el conjunto de validación. Déjalo apuntado con un comentario al final del script y comenta brevemente si ves mejora o no en el resultado y por qué crees que pasa.
 
 ### Modelo 01
 
@@ -67,7 +67,7 @@ Todos los modelos deberán hacer lo siguiente. Es recomendable que saques el có
 
     * Crea la columna `ZeroDebtRatio` que tenga valor true si DebtRatio es igual a 0, false si no. De esta manera, nos guardamos si el valor original era cero antes de corregirlo, y no perdemos la importancia que pudiera tener.
     * Pon el valor de `DebtRatio` a cero si `UnknownMonthlyIncome` es true, para corregir los valores altos al desconocer los ingresos.
-    * Vamos a probar otra idea relacionada, que es calcular la deuda que tiene la persona, con una ligera variación. Cuando los valores pueden estar en escalas diferentes, y solo nos importan las diferencias grandes (si tienen más o menos ceros, por así decirlo), podemos usar el logaritmo del valor. Crea una variable `LogDebt` que sea el logaritmo de la deuda (`log(MonthlyIncome * DebtRatio)`). Cuidado con los infinitos al usarlo los logartimos: sustituye los que te hayan salido por 0.
+    * Vamos a probar otra idea relacionada, que es calcular la deuda que tiene la persona, con una ligera variación. Cuando los valores pueden estar en escalas diferentes, y solo nos importan las diferencias grandes (si tienen más o menos ceros, por así decirlo), podemos usar el logaritmo del valor. Crea una variable `LogDebt` que sea el logaritmo de la deuda (`log(MonthlyIncome * DebtRatio)`). Cuidado con los infinitos al usarlo los logaritmos: sustituye los que te hayan salido por 0.
 
 * Modelo: entrena un random forest de 500 árboles
 
